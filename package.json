@@ -1,0 +1,23 @@
+{
+  "name": "googlemailer",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukherjeepratimgithub/Googlemailer.git"
+  },
+  "author": "Pratim Mukherjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukherjeepratimgithub/Googlemailer/issues"
+  },
+  "homepage": "https://github.com/mukherjeepratimgithub/Googlemailer#readme",
+  "dependencies": {
+    "googleapis": "^73.0.0",
+    "nodemailer": "^6.6.0"
+  }
+}
