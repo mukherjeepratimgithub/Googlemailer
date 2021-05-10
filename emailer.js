@@ -3,8 +3,8 @@ const { google } = require("googleapis");
 const OAuth2 = google.auth.OAuth2;
 
 const oauth2Client = new OAuth2(
-    "Your ClientID "Here", // ClientID
-    "Your Client Secret Here", // Client Secret
+    "527905795196-m4ui1sa62ma75j180rkh4ahpagmdt80r.apps.googleusercontent.com", 
+    "KbEZzhXkZwg2fAHIIdPzgXUZ", // Client Secret
     "https://developers.google.com/oauthplayground" // Redirect URL
 );
 
@@ -17,9 +17,9 @@ const smtpTransport = nodemailer.createTransport({
     service: "gmail",
     auth: {
          type: "OAuth2",
-         user: "your.gmail.here@gmail.com", 
-         clientId: "Your ClientID Here",
-         clientSecret: "Your Client Secret Here",
+         user: "pratimmukherjeeiem@gmail.com", 
+         clientId: "527905795196-m4ui1sa62ma75j180rkh4ahpagmdt80r.apps.googleusercontent.com",
+         clientSecret: "KbEZzhXkZwg2fAHIIdPzgXUZ",
          refreshToken: "Your Refresh Token Here",
          accessToken: accessToken
     }
